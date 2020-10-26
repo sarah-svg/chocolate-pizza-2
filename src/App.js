@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import backgroundImage from './list.png';
+import listImage from './list.png';
 
 class MyCoolHeader extends React.Component {
   render() {
@@ -58,8 +58,7 @@ class MyAmazingArticle extends React.Component {
 class RecipeList extends React.Component {
   render() {
     return (
-      <article style={{backgroundImage: 'url(' + {backgroundImage} + ')'}}>
-        <ul>
+      <article style={{backgroundImage: `url(${listImage})`}}>      <ul>
           <li><input type="checkbox" />1 1/2 cups milk</li>
           <li><input type="checkbox" />1/2 cups mascrarpone</li>
           <li><input type="checkbox" />1/2 tsp pink salt</li>
@@ -69,8 +68,8 @@ class RecipeList extends React.Component {
         </ul>
         <ul>
           <li><input type="checkbox" />1 1/2 cups heavy cream</li>
-          <li><input type="checkbox" />1/3 granulated sugar</li>
-          <li><input type="checkbox" />2 egg yolks</li>
+          <li><input type="checkbox" checked />1/3 granulated sugar</li>
+          <li><input type="checkbox" checked />2 egg yolks</li>
           <li><input type="checkbox" />lemon, juice</li>
           <li><input type="checkbox" />2 tbsp butter</li>
           <li><input type="checkbox" />1 cup honey roaste pecans, roughly choopped</li>
