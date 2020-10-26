@@ -8,7 +8,7 @@ export default class MySpecialFooter extends React.Component {
                 <img src="van-pic.png" alt="Vanessa Stevenson"/>
                 <div>
                   <p>
-                      Vanessa Stevenson
+                  {this.props.author}
                   </p>
                   <p>
                       Food enthusiast, photopgraphy fan. Add a pinch of raw foodism and that's pretty much who I am.

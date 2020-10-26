@@ -7,7 +7,7 @@ export default class MyCoolHeader extends React.Component {
             <div className="left-side-header">
               <img src="logo.png" alt="fork and knife"/>
               <div>
-                <h1>Delicious</h1>
+                <h1>{this.props.title}</h1>
                 <p>The best food blog on the web.</p>
                 </div>
             </div>
